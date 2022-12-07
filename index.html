@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan webdesign 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="big-wrapper">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="" alt="">
+                        <h3>NOVA</h3>
+                    </div>
+                    <div class="menu-bar">
+                        
+                        <ul class="links">
+                            <div class="close-nav">
+                                <span class="material-symbols-outlined" onclick="closeHamburgerMenu()">
+                                    close
+                                </span>
+                            </div>
+                           
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Article</a></li>
+                            <li><a href="#" class="btn">Login</a></li>
+                        </ul>
+                    </div>
+                          
+                    <div class="hamburger-menu">
+                        <span class="material-symbols-outlined" onclick="showHamburgerMenu()">
+                            menu
+                        </span>
+                    </div>       
+                
+                </div>
+            </header>
+        </div>
+
+       
+        <div class="hero">
+            <div class="container">
+                <div class="main-text">
+                    <h2 class="main-title">Nova Content Management System</h2>
+                    <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                </div>
+                <div class="container-img">
+                    <img class="hero-img" src="./assets/illustration-1 1.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="scope-work">
+            <div class="container">
+                <div class="list-card">
+
+                    <div class="card">
+                        <div class="card-title">
+                            <h2 class="main-title">01</h2>
+                            <h4>Create Account</h4>
+                        </div> 
+                        <div class="card-body">
+                            <p class="text">There are many variations of passages.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-title">
+                            <h2 class="main-title">02</h2>
+                            <h4>Make Content</h4>
+                        </div> 
+                        <div class="card-body">
+                            <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-title">
+                            <h2 class="main-title">03</h2>
+                            <h4>Published</h4>
+                        </div> 
+                        <div class="card-body">
+                            <p class="text">There are many variations of passages of Lorem Ipsum available.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>   
+        </div>
+
+        <div class="describe">
+            <div class="container">
+                <div class="promote">
+                    <div class="promote-text">
+                        <h2 class="main-title">Easy To Use On All Your device
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptate esse corporis recusandae sit, dolore quidem placeat. Illo, fuga corrupti?</p>
+                    </div>
+                    <div class="promote-illustrator">
+                        <img src="./assets/illustrator2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="promote">
+                    <div class="promote-illustrator">
+                        <img src="./assets/illustrator3.png" alt="">
+                        <img src="./assets/ornament1.png" alt="" class="ornament1">
+                    </div>
+
+                    <div class="promote-text">
+                        <h2 class="main-title">Easy To Use On All Your device
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptate esse corporis recusandae sit, dolore quidem placeat. Illo, fuga corrupti?</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+        <div class="service">
+                <div class="container">
+                    <div class="list-card-service">
+                        <div class="card-service">
+                            <div class="card-header-center">
+                                <img src="./assets/glass 1.png" alt="">
+                                <h3>Creative Design</h3>                           
+                                <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iure quae qui!</p>
+                            </div>
+                        </div> 
+                        
+                        <div class="card-service">
+                            <div class="card-header-center">
+                                <img src="./assets/pencil 1.png" alt="">
+                                <h3>Just Write It</h3>                           
+                                <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iure quae qui!</p>
+                            </div>
+                        </div> 
+
+                        <div class="card-service">
+                            <div class="card-header-center">
+                                <img src="./assets/layout 1.png" alt="">
+                                <h3>Responsive Layout</h3>                           
+                                <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iure quae qui!</p>
+                            </div>
+                        </div> 
+
+                        <div class="card-service">
+                            <div class="card-header-center">
+                                <img src="./assets/ribbon 1.png" alt="">
+                                <h3>Awward System</h3>                           
+                                <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iure quae qui!</p>
+                            </div>
+                        </div> 
+                    </div>
+            </div>
+        </div>
+
+        <div class="testimoni">
+            <div class="container">
+                <div class="control">
+                    <div class="control-thumnail">
+                        <img class="photo-thumbnail" src="/assets/photo-person-1.jpg" onclick="slide(1)" alt="">
+                        <img class="photo-thumbnail" src="/assets/photo-person-2.jpg" onclick="slide(2)" alt="">
+                        <img class="photo-thumbnail" src="/assets/photo-person-3.jpg" onclick="slide(3)" alt="">
+                    </div>                   
+                </div>
+
+                <div id="person_1" class="block-testimoni">
+                    <div class="person">
+                        <img class="photo" src="/assets/photo-person-1.jpg" alt="">
+                        <h3>Taylor Otwell</h3>
+                        <div class="ratings">
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testimoni-word">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente esse neque earum eveniet ipsa!</p>
+                    </div>
+                </div>
+
+                <div id="person_2" class="block-testimoni hidden">
+                    <div class="person">
+                        <img class="photo" src="/assets/photo-person-2.jpg" alt="">
+                        <h3>Pauline White</h3>
+                        <div class="ratings">
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>                        
+                        </div>
+                    </div>
+                    <div class="testimoni-word">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente esse neque earum eveniet ipsa!</p>
+                    </div>
+                </div>
+
+                <div id="person_3" class="block-testimoni hidden">
+                    <div class="person">
+                        <img class="photo" src="/assets/photo-person-3.jpg" alt="">
+                        <h3>Michael L. Douglas</h3>
+                        <div class="ratings">
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star-full" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m11.65 44 3.25-14.05L4 20.5l14.4-1.25L24 6l5.6 13.25L44 20.5l-10.9 9.45L36.35 44 24 36.55Z"/></svg>
+                        </div>
+                    </div>
+                    <div class="testimoni-word">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente esse neque earum eveniet ipsa!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="sosmed-icon">
+                    <img class="icon" src="/assets/facebook.png" alt="">
+                    <img class="icon" src="/assets/tiktok.png" alt="">
+                    <img class="icon" src="/assets/youtube.png" alt="">
+                    <img class="icon" src="/assets/instagram.png" alt="">
+                    <img class="icon" src="/assets/twitter.png" alt="">
+                </div>
+                <div class="copyright">
+                    <p>Copyright 2022 &copy; MIT</p>
+                </div>
+            </div>
+        </footer>
+        
+    </section>
+
+    <script src="/app.js"></script>
+</body>
+</html>
